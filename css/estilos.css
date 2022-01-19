@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* INDEX */
+/* ------------.............-----HEADER---------................------- */
+.header{
+    background-color: rgba(0, 32, 96);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    height: 100px;
+    width: 1280px;   
+
+}
+
+.header div{
+    display: flex;
+    align-items: flex-end;
+    height: 70px;
+    justify-content: flex-start;
+    margin: 20px 0 0 0;
+}
+
+.header section h2{
+    font-family: cursive;
+    font-size: 20px;
+    color: white;
+    align-items: center;
+    top: 9px;
+    left: 1px;
+    
+}
+
+
+.header ul{
+    display: flex;
+    list-style: none;
+        }
+
+.header li{
+    margin: 0px 40px;
+    margin: 10px 30px;
+    font-size: 14px;
+    
+
+    
+}
+
+.header .superior{
+    color: rgb(224, 138, 25);
+    display: flex;
+    justify-content: end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.header a{
+    color: white;
+    height: 50px;    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    text-decoration: none;
+
+}
+
+.header a:hover{
+    color: orange;
+    border-radius: 10%;
+}
+
+.header img{
+    border-radius: 10%;
+    position: relative;
+    height: 60px;
+    margin: 20px 10px 0px 20px;
+}
+
+.header h1{
+    color: orange;
+    position: relative;
+    height: 50px;
+    left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px 0px 0px 0px;
+    
+}
+
+.header h2{
+    color: orange;
+    position: relative;
+    height: 50px;
+    left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+    
+}
+
+/* -------.....................-BODY------.................--------- */
+.main{
+    width: 1280px;
+    height: 540.027px;
+}
+    
+.main h1{
+    margin: 60px 0px 0px 0px;
+    position: relative;
+    left: 500px;
+}
+
+.main h2{
+    margin: 60px 0 0 0;
+    position: relative;
+    left: 380px;
+}
+.main h3{
+    position: relative;
+    left: 55px;
+}
+
+.main div{
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 32, 96);   
+    
+}
+
+.main img{
+    width: 250px;
+    height: 290px;
+    border-radius: 10%;
+    padding: 1px;
+    box-shadow: 0 10px 10px gray;
+    cursor: pointer;
+    
+   
+}
+
+.main section{
+    margin: 90px 10px 20px 10px;
+    font-size: 16px;
+    width: 250px;
+    height: 600px;
+       
+}
+
+/* ------------------------------FOOTER-------------------------- */
+.footer{
+    width: 1280px;
+    height: 100px;
+}
+
+.footer div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: gray;
+    height: 100px;
+}  
+
+.footer img{
+    width: auto;
+    height: 50px;
+}
+
+/* CAPACITACION */
+.capacitacionMain{
+    height: 600px;
+    width: 1280px;
+}
+
+.capacitacionMain div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+   
+/* TECNOLOGIA */
+.mainTecnologia{
+    height: 540.015px;
+    width: 1280px;
+}
+
+.mainTecnologia h2{
+    color: rgb(0, 32, 96);
+    margin: 60px 0;
+    position: relative;
+    left: 250px;
+}
+
+.mainTecnologia img{
+    margin: 10px 0;
+    position: relative;
+    left: 320px;
+    height: 380px;    
+}
+
+/* CONSULTORIA */
+.consultoriaMain{
+    height: 540.015px;
+    width: 1280px;
+}
+
+.consultoriaMain h2{
+    margin: 60px 0;
+    position: relative;
+    left: 250px;
+    color: rgb(0, 32, 96);
+}
+
+.consultoriaSection{
+    display: flex;
+
+}
+
+.consultoriaSection img{
+    height: 300px;
+    width: 400px;
+}
+
+.consultoriaSection article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* CONTRATSITA */
+.mainContratista{
+    width: 1280px;
+}
+.mainContratista div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 1280px;
+
+}
+
+.mainContratista img{
+    width: 250px;
+}
+
+.mainContratista p{
+    width: 250px;
+}
+
+.mainContratista section{
+    margin: 60px 10px 31.296px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainContratista h2{
+    margin: 60px 0 0 0;
+    position: relative;
+    left: 250px;
+    color: rgb(0, 32, 96);
+}
+
+/* CAPACITACION */
+.capacitacionMain{
+    width: 1280px;
+}
+
+.capacitacionMain div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.capacitacionMain article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.capacitacionMain h2{
+    margin: 60px 0 60px 0;
+    position: relative;
+    left: 450px;
+    color: rgb(0, 32, 96);
+}
+
+.capacitacionMain img{
+    margin: 30px 30px;
+}
+
+/* CONTACTANOS */
+.mainContactanos{
+    width: 1280px;
+}
+
+.mainContactanos h2{
+    margin: 60px 0 60px 0;
+    position: relative;
+    left: 350px;
+    color: rgb(0, 32, 96);
+}
+
+.mainContactanos div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.seccionContactanos form{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+        
+}
+.consulta{
+    height: 300px;
+}
+
+.seccionContactanos{
+    padding: 5px;
+}
+
